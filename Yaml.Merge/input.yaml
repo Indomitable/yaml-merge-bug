@@ -1,0 +1,7 @@
+.first: &first
+  x: 1
+.second: &second
+  x: 2
+
+item:
+  <<: [*second, *first]
